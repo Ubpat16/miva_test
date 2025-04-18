@@ -1,7 +1,7 @@
 from typing import List
 
 
-def check_constraint(integer_array: List[int]) -> bool:
+def check_constraint(integer_array: List[int]) -> None:
     # Array consist list of integers
     # Array can not be empty
     # Elements in the array can be positive, negative or zero

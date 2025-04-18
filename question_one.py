@@ -20,7 +20,7 @@ def check_constraint(position: int, value: int, array_size: int) -> None:
     
     return
     
-def validate_constraints(digits_array: List[str]) -> List[str]:
+def validate_constraints(digits_array: List[str]) -> None:
     """
     Validate all constraints for the input digits.
     Returns True if all constraints are satisfied, False otherwise.
@@ -29,9 +29,8 @@ def validate_constraints(digits_array: List[str]) -> List[str]:
     for index, value in enumerate(digits_array):
         check_constraint(index, value, len(digits_array))
     
-    return
 
-def to_digits_array(digits: int):
+def to_digits_array(digits: int) -> List[int]:
     """
     Convert an integer to a list of digits.
     """

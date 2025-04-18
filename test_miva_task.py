@@ -64,3 +64,4 @@ def test_contraint_violation():
     input_list = ["4", "3", 1, 4]
     with pytest.raises(ValueError):
         alter_min_max_rearrangement(input_list)
+        
